@@ -12,32 +12,33 @@
 </head>
 <body>
     <header>
-        <nav class="nav.fijo">
-            <div class="hola.nav"><a href="#section-1">HOLA</a></div>
-            <div class="conocimientos.nav"><a href="#section-2">CONOCIMIENTOS</a></div>
-            <div class="proyectos.nav"><a href="#section-4">PROYECTOS</a></div>
-            <div class="contacto.nav"><a href="#section-5">CONTACTO</a></div> 
-            <!-- AGREGAR BOTON AL CONTACTO!! -->
+        <nav>
+            <a class="nav-hola" href="#section-1">HOLA</a></div>
+            <a class="nav-conocimientos" href="#section-2">CONOCIMIENTOS</a></div>
+            <a class="nav-proyectos" href="#section-4">PROYECTOS</a></div>
+            <a class="nav-contacto-boton" href="#section-5">CONTACTO</a></div> 
         </nav>
     </header>
 
     <aside>
         
         <a name="section-1"></a>
-        <section>        
-            <div>
-                <p>Bienvenidos a mi portfolio!</p>
-                <h1>Yanina Medici</h1>
-                <p>Programadora Web</p>
+        <section class="contenedor presentacion">        
+            <div class="presentacion">
+                <p class="bienvenidos">Bienvenidos a mi portfolio!</p>
+                <h1 class="nombre-bienvenidos">Yanina Medici</h1>
+                <p class="programadora">Programadora Web</p>
             </div>
             <div><a href="#section-4">LO QUE HAGO</a>
 
             </div>
-            <div><img src="imagenes/undraw_happy_news_re_tsbd.svg"></div>
+            <div>
+                <img src="imagenes/undraw_happy_news_re_tsbd.svg">
+            </div>
         </section>
 
         <a name="section-2"></a>
-        <section>
+        <section class="contenedor conocimientos">
             <div>
                 <div>
                     <h2>Mis conocimientos</h2>
@@ -56,7 +57,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="contenedor frase">
             <div><i class="fa-solid fa-quote-left"></i></div>
             <div>
                 <p>El diseño puede ser arte. <br>
@@ -68,7 +69,7 @@
         </section>
 
         <a name="section-4"></a>
-        <section>
+        <section class="contenedor proyectos">
             <div>
                 <h2>Mis proyectos</h2>            
             </div>
@@ -87,7 +88,7 @@
         </section>
 
         <a name="section-5"></a>
-        <section>
+        <section class="contenedor contactame escribime">
             <div>
                 <div>
                     <h2>Contactame</h2>
@@ -109,9 +110,7 @@
                     </div>            
                 </div>
             </div>
-        </section>
 
-        <section>
             <div>
                 <div>
                     <h2>Escribime</h2>
@@ -145,7 +144,7 @@
         </section>
     </aside>
     
-    <footer>
+    <footer class="contenedor footer">
         <div>
             <div><a href="#section-1">Hola!</a></div>
             <div><a href="#section-2">Conocimientos</a></div>
