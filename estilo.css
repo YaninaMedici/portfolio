@@ -17,7 +17,7 @@ body{
 }
 
 h2{
-    color: rgb(62, 62, 62);
+    color: rgb(135, 135, 135);
     font-size: 40px;
     text-align: center;
     margin-bottom: 35px;
@@ -77,4 +77,56 @@ nav{
 }
 
 /* ASIDE SECTION-1 */
+.div-presentacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.presentacion-texto{
+    width: 48%;
+    height: 700px;
+    color: rgb(135, 135, 135);
+}
+
+.pres-bienvenidos{
+    padding-top: 230px;
+    color: rgb(135, 135, 135);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.pres-nombre{
+    color: rgb(182, 230, 214);
+    font-size: 60px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.pres-programadora{
+    color: rgb(135, 135, 135);
+    font-size: 17px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.pres-loquehago{
+    background-color: rgb(182, 230, 214);
+    color: white;
+    /* font-weight: 300; PORQUE NO HACE EL EFECTO?? CON LIGHTER TAMPOCO */
+    text-decoration: none;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 50px;    
+}
+
+
+.presentacion-imagen{
+    width: 48%;
+    height: 700px;
+}
 
