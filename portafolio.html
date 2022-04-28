@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="https://devicon.dev/">
     <title>Yanina Medici - Portfolio</title>
 </head>
-<body>
-    <header>
-        <nav>
+<body class="body">
+    <header class="header">
+        <nav class="nav">
             <a class="nav-hola" href="#section-1">HOLA</a>
             <a class="nav-conocimientos" href="#section-2">CONOCIMIENTOS</a>
             <a class="nav-proyectos" href="#section-4">PROYECTOS</a>
@@ -21,28 +21,25 @@
     </header>
 
     <aside>
-        
-        <a name="section-1"></a>
-        <section class="contenedor presentacion"> 
-            <div class="div-presentacion">
-                <div class="presentacion-texto">
-                    <p class="pres-bienvenidos">Bienvenidos a mi portfolio!</p>
-                    <h1 class="pres-nombre">Yanina Medici</h1>
-                    <p class="pres-programadora">Programadora Web Frontend</p>
-                    <a class="pres-loquehago" href="#section-4">LO QUE HAGO</a>
-                </div>       
+
+        <section class="contenedor presentacion" id="section-1"> 
+            <div class="presentacion-texto">
+                <p class="pres-bienvenidos">Bienvenidos a mi portfolio!</p>
+                <h1 class="pres-nombre">Yanina Medici</h1>
+                <p class="pres-programadora">Programadora Web Frontend</p>
+                <a class="pres-hago" href="#section-4">LO QUE HAGO</a>
+            </div>       
                 
-                <div class="presentacion-imagen">
-                    <img src="imagenes/undraw_happy_news_re_tsbd.svg">
-                </div>
+            <div class="presentacion-imagen">
+                <img class="pres-imagen" src="imagenes/undraw_happy_news_re_tsbd.svg">
             </div>
+            
         </section>
 
-        <a name="section-2"></a>
-        <section class="contenedor conocimientos">
+        <section class="contenedor conocimientos" id="section-2">
             <div>
                 <div>
-                    <h2>Mis conocimientos</h2>
+                    <h2 class="subtítulo">Mis conocimientos</h2>
                 </div>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque unde blanditiis quod minima, odio voluptas, voluptate, enim corporis excepturi ullam pariatur eos mollitia distinctio repudiandae vel? Qui eveniet aut impedit sunt ipsam et aperiam libero beatae, ducimus consequatur recusandae dolor!</p>
@@ -58,7 +55,7 @@
             </div>
         </section>
 
-        <section class="contenedor frase">
+        <section class="contenedor cita">
             <div><i class="fa-solid fa-quote-left"></i></div>
             <div>
                 <p>El diseño puede ser arte. <br>
@@ -69,10 +66,9 @@
             </div>
         </section>
 
-        <a name="section-4"></a>
-        <section class="contenedor proyectos">
+        <section class="contenedor proyectos" id="section-4">
             <div>
-                <h2>Mis proyectos</h2>            
+                <h2 class="subtítulo">Mis proyectos</h2>            
             </div>
             <div>
                 <p>Durante la carrera creamos distintos proyectos que mostramos a continuación.</p>
@@ -88,11 +84,10 @@
             </div>       
         </section>
 
-        <a name="section-5"></a>
-        <section class="contenedor contactame escribime">
+        <section class="contenedor contacto" id="section-5">
             <div>
                 <div>
-                    <h2>Contactame</h2>
+                    <h2 class="subtítulo">Contactame</h2>
                 </div>
                 <div>
                     <p>Te propongo acompañarte en tu próximo proyecto! No dudes en contactarte y comencemos a crear juntos!</p>
@@ -114,10 +109,10 @@
 
             <div>
                 <div>
-                    <h2>Escribime</h2>
+                    <h2 class="subtítulo ">Escribime</h2>
                 </div>
                 <div>
-                    <fieldset>
+                    <form>
                         <div>
                             <label for="nombre">Nombre*</label>
                             <input type="text" id="nombre" size="20" placeholder="p. ej.: Ada" required> 
@@ -139,7 +134,7 @@
                         </div>     
                         
                         <input class="button" type="submit" value="Enviar">
-                    </fieldset>
+                    </form>
                 </div>
             </div>
         </section>
