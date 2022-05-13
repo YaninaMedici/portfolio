@@ -430,14 +430,87 @@ ASIDE
     color: white;
 }
 
-
-
-
 /* **********************************************
 FOOTER 
 ********************************************** */
 
 .footer{
-    background-color: yellow;
+    background-color: rgb(1233, 102, 124);
 }
 
+.contenedor-navegacion{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    margin: auto;
+    
+}
+
+.texto-navegacion{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.iconos-listado{
+    list-style: none;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 3%;
+    /* background-color: greenyellow; */
+}
+
+.footer-icono{
+    font-size: 23px;
+    border-radius: 100%;
+    padding: 35%;
+    background-color: white;
+    color: rgb(233, 102, 124);
+}
+
+.footer-icono:hover{
+    background-color: rgb(233, 102, 124);
+    color: white;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: white;
+}
+
+.texto-hecho{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+/* .contacto-listado{
+    list-style: none;
+}
+
+.contacto-boton{
+    margin: 2%;
+    color: rgb(233, 102, 124);
+}
+
+.icono-contacto{
+    font-size: 17px;
+    padding: 3%;
+    border-radius: 100%;
+    margin-right: 2%;
+    background-color: white;
+    color: rgb(233, 102, 124);
+}
+
+.icono-contacto:hover{
+    background-color: rgb(233, 102, 124);
+    color: white;
+}
+
+.texto-boton{
+    color: rgb(78, 77, 77);
+}
+
+.texto-boton:hover{
+    color: rgb(233, 102, 124);
+} */
