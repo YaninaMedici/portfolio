@@ -11,6 +11,11 @@
     <title>Yanina Medici - Portfolio</title>
 </head>
 <body class="body">
+
+<!-- /* **********************************************
+HEADER 
+********************************************** */ -->
+
     <header class="header">
         <nav class="nav">
             <a class="nav-hola" href="#section-1">HOLA</a>
@@ -19,6 +24,10 @@
             <a class="nav-contacto-boton" href="#section-5">CONTACTO</a> 
         </nav>
     </header>
+
+<!-- /* **********************************************
+ASIDE 
+********************************************** */ -->
 
     <aside>
 
@@ -31,7 +40,7 @@
             </div>       
                 
             <div>
-                <img class="presentacion-imagen" src="imagenes/undraw_happy_news_re_tsbd.svg">
+                <img class="presentacion-imagen" src="imagenes/undraw_happy_news_re_tsbd.svg" alt="Diseñadora Web">
             </div>
             
         </section>
@@ -106,49 +115,49 @@
             <div class="proyectos-grilla">
                 <div class="proyectos-caja">
                     <div class="proyectos-img">
-                        <img class="proyectos-imagen" src="imagenes/portfolio.jpg">    
+                        <img class="proyectos-imagen" src="imagenes/portfolio.jpg" alt="Proyecto - Portfolio">    
                     </div>
                     <span class="proyectos-texto">Portfolio</span>
                 </div>
 
                 <div class="proyectos-caja">
                     <div class="proyectos-img">
-                        <img class="proyectos-imagen" src="imagenes/generador-de-memes.svg">    
+                        <img class="proyectos-imagen" src="imagenes/generador-de-memes.svg" alt="Proyecto - Memes">    
                     </div>
                     <span class="proyectos-texto">Generador de memes</span>
                 </div>
 
                 <div class="proyectos-caja">
                     <div class="proyectos-img">
-                        <img class="proyectos-imagen" src="imagenes/match-3.svg">    
+                        <img class="proyectos-imagen" src="imagenes/match-3.svg" alt="Proyecto - Match-3">    
                     </div>
                     <span class="proyectos-texto">Match 3</span>
                 </div>
 
                 <div class="proyectos-caja">
                     <div class="proyectos-img">
-                        <img class="proyectos-imagen" src="imagenes/gastos.svg">    
+                        <img class="proyectos-imagen" src="imagenes/gastos.svg" alt="Proyecto - Controlador de gastos">    
                     </div>
                     <span class="proyectos-texto">Controlador de gastos</span>
                 </div>
 
                 <div class="proyectos-caja">
                     <div class="proyectos-img">
-                        <img class="proyectos-imagen" src="imagenes/reuniones.svg">    
+                        <img class="proyectos-imagen" src="imagenes/reuniones.svg" alt="Proyecto - Administrador de reuniones">    
                     </div>
                     <span class="proyectos-texto">Administrador de reuniones</span>
                 </div>
 
                 <div class="proyectos-caja">
                     <div class="proyectos-img">
-                        <img class="proyectos-imagen" src="imagenes/app.svg">    
+                        <img class="proyectos-imagen" src="imagenes/app.svg" alt="Proyecto - Todo app">    
                     </div>
                     <span class="proyectos-texto">Todo app</span>
                 </div>
 
                 <div class="proyectos-caja">
                     <div class="proyectos-img">
-                        <img class="proyectos-imagen" src="imagenes/peliculas.svg">    
+                        <img class="proyectos-imagen" src="imagenes/peliculas.svg" alt="Proyecto - Buscador de películas">    
                     </div>
                     <span class="proyectos-texto">Buscador de películas</span>
                 </div>
@@ -160,50 +169,58 @@
         <section class="contenedor contacto" id="section-5">
             <div class="contacto-caja">
                 <div class="contactame">
-                    <div>
-                        <h2 class="subtítulo alineado">Contactame</h2>
-                    </div>
+                    <h2 class="subtítulo alineado">Contactame</h2>
                     <div class="contacto-texto">
                         <span>Te propongo acompañarte en tu próximo proyecto! No dudes en contactarte y comencemos a crear juntos!</span>
                     </div>
-                    <div>
-                        <div>
-                            <button><i class="fa-solid fa-envelope"></i>mediciyanina@gmail.com</button>
-                        </div>
+                    
+                    <ul class="contacto-listado">
+                        <li class="contacto-boton mail">
+                            <a class="texto-boton"  href="mailto:yaninamedici@gmail.com">
+                            <i class="fa-solid fa-envelope icono-contacto"></i>mediciyanina@gmail.com</a>
+                        </li>
+
+                        <li class="contacto-boton">
+                            <a class="texto-boton"  href="https://www.linkedin.com/in/yanina-medici-8b8321237/">
+                            <i class="fa-brands fa-linkedin-in icono-contacto"></i>Yanina Medici</a>
+                        </li>    
                         
-                        <div>
-                            <a href="https://www.linkedin.com/in/yanina-medici-8b8321237/"><button><i class="fa-brands fa-linkedin-in"></i>Yanina Medici</button></a>
-                        </div>            
-                    </div>
+                        <li class="contacto-boton">
+                            <a class="texto-boton" href="https://github.com/YaninaMedici">
+                            <i class="fa-brands fa-github i-form icono-contacto"></i>/YaninaMedici</a>
+                        </li>
+                    </ul>
                 </div>
     
                 <div class="escribime">
                     <div>
                         <h2 class="subtítulo alineado">Escribime</h2>
                     </div>
-                    <div>
+                    <div class="escribime-caja">
                         <form>
-                            <div>
-                                <label for="nombre">Nombre*</label>
-                                <input type="text" id="nombre" size="20" placeholder="p. ej.: Ada" required> 
+                            <div class="nombre-caja">
+                                <div>
+                                    <label class="escribime-texto" for="nombre">Nombre*</label>
+                                    <input class="campo-nombre" type="text" id="nombre" size="20" placeholder="p. ej.: Ada" required> 
+                                </div>
+                            
+                                <div>
+                                    <label class="escribime-texto" for="apellido">Apellido*</label>
+                                    <input class="campo-nombre" type="text" id="apellido" size="20" placeholder="p. ej.: Lovelace" required>
+                                </div>         
+                            </div>       
+                            
+                            <div class="email-caja">
+                                <label class="escribime-texto" for="email">Email*</label><br>
+                                <input class="campo-email" type="email" id="email" size="40" placeholder="p. ej.: ada.lovelace@gmail.com" required>
                             </div>
                             
-                            <div>
-                                <label for="apellido">Apellido*</label>
-                                <input type="text" id="apellido" size="20" placeholder="p. ej.: Lovelace" required>
-                            </div>         
-                            
-                            <div>
-                                <label for="email">Email*</label>
-                                <input type="email" id="email" size="40" placeholder="p. ej.: ada.lovelace@gmail.com" required>
-                            </div>
-                            
-                            <div>   
-                                <label for="mensaje">Mensaje*</label>
-                                <input type="text" id="mensaje" size="40" placeholder="Escriba un mensaje aquí" required>
+                            <div class="mensaje-caja">   
+                                <label class="escribime-texto" for="mensaje">Mensaje*</label><br>
+                                <textarea class="campo-mensaje" cols="50" rows="10" type="text" id="mensaje" size="40" placeholder="Escriba un mensaje aquí" required></textarea>
                             </div>     
                             
-                            <input class="button" type="submit" value="Enviar">
+                            <input class="boton-formulario" type="submit" value="Enviar">
                         </form>
                     </div>
                 </div>
@@ -211,7 +228,11 @@
             
         </section>
     </aside>
-    
+
+<!-- /* **********************************************
+FOOTER 
+********************************************** */ -->
+
     <footer class="contenedor footer">
         <div>
             <div><a href="#section-1">Hola!</a></div>
@@ -229,6 +250,9 @@
             <div>
                 <a href="https://www.linkedin.com/in/yanina-medici-8b8321237/"><button><i class="fa-brands fa-linkedin-in"></i></button></a>
                 
+            </div>
+            <div>
+                <span>Hecho con &#128147 por Yanina</span>
             </div>
         </div>
     </footer>
