@@ -619,6 +619,14 @@ FIN-FOOTER
     flex-direction: column;
   }
 
+  .contactame-boton:active {
+    width: 43%;
+  }
+  
+  .contactame-mail:active {
+    width: 73%;
+  }
+
   .footer-listado-iconos{
     width: 60%;
     margin: auto;
@@ -718,6 +726,14 @@ FIN-FOOTER
     
     .contactame-texto{
       width: 80%;
+    }
+
+    .contactame-boton:active {
+      width: 28%;
+    }
+    
+    .contactame-mail:active {
+      width: 47%;
     }
 
     .footer-contenedor-navegacion{
